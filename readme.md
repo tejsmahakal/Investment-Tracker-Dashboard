@@ -1,4 +1,5 @@
 github link :https://github.com/tejsmahakal/Investment-Tracker-Dashboard
+hosted link : https://tejsmahakal.github.io/Investment-Tracker-Dashboard/
 
 # Investment Tracker Dashboard
 
