@@ -1,3 +1,5 @@
+github link :https://github.com/tejsmahakal/Investment-Tracker-Dashboard
+
 # Investment Tracker Dashboard
 
 This project is an **Investment Tracker Dashboard** that allows users to view and analyze trending investments in real time. Users can select investments from a dynamically populated dropdown, search for specific investments, and visualize their price trends through interactive charts.
