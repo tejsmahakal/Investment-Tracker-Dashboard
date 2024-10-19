@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Tracker Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Investment Tracker Dashboard</h1>
+    </header>
+    <main>
+        <section class="selection-area">
+            <h2>Select Trending Investment</h2>
+            <select id="investmentDropdown">
+                <!-- Investment options will be dynamically populated -->
+            </select>
+            <button id="fetchInvestmentButton">Load Investment</button>
+        </section>
+
+        <section class="query-area">
+            <input type="text" id="investmentSearch" placeholder="Search for an investment (e.g., AAPL)">
+            <button id="queryButton">Search</button>
+        </section>
+
+        <section class="investment-info">
+            <h2>Investment Information</h2>
+            <div id="investmentDetails"></div>
+        </section>
+
+        <section class="chart-area">
+            <h2>Investment Price Chart</h2>
+            <canvas id="investmentChart">
+                <!-- "The <canvas> tag is used to create and render graphics in a web browser." -->
+            </canvas>
+        </section>
+
+        <section class="comparison-table">
+            <h2>Compare Investments</h2>
+            <table id="investmentTable">
+                <thead>
+                    <tr>
+                        <th>Investment</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                        <th>Volume</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Investment rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
